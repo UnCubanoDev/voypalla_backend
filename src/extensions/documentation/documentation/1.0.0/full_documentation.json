@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "title": "VoyPaLlá API",
     "description": "",
-    "termsOfService": "YOUR_TERMS_OF_SERVICE_URL",
+    "termsOfService": "",
     "contact": {
       "name": "VoyPaLlá",
       "email": "voypalla.app@gmail.com",
@@ -23,6 +23,10 @@
     {
       "url": "http://localhost:8082/api",
       "description": "Development server"
+    },
+    {
+      "url": "http://voypalla.uncubano.dev/api",
+      "description": "Production server"
     }
   ],
   "externalDocs": {
