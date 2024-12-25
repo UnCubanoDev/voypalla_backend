@@ -39,12 +39,4 @@ export default () => ({
       security: [{ bearerAuth: [] }],
     },
   },
-  'free-mail-sender': {
-    config: {
-      provider: 'gmail', // Check the providers list -> DEFAULT: 'outlook'
-      sender: env.EMAIL_SENDER || '',
-      pass: env.PASSWORD_SENDER || '',
-      token: env.TOKEN || '', // Token generated from Strapi UI
-    },
-  },
 });

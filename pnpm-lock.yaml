@@ -26,9 +26,6 @@ importers:
       firebase-admin:
         specifier: ^13.0.1
         version: 13.0.2
-      free-mail-sender:
-        specifier: ^2.0.0
-        version: 2.0.0
       geolib:
         specifier: ^3.3.4
         version: 3.3.4
@@ -3419,10 +3416,6 @@ packages:
     resolution: {integrity: sha512-PcOxmqwYCW7O2ovKRU8OoQQj2yqTfEB/yeTYk4gPid6dN5ODRfU1hXd9tTVZzax/0NkO7AxpHykvZnT1aYp/BQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
 
-  free-mail-sender@2.0.0:
-    resolution: {integrity: sha512-ikph2btrBX3mqm6WA+yc477aCSdnUafYtJTeUK196edFqlQ7pAjHqAl1zeDKUnOCXzdEEV8UIzFt4GWrT1MxmQ==}
-    engines: {node: '>=18.0.0 <=20.x.x', npm: '>=6.0.0'}
-
   fresh@0.5.2:
     resolution: {integrity: sha512-zJ2mQYM18rEFOudeV4GShTGIQ7RbzA7ozbU9I/XBpm7kqgMywgmylMwXHxZJmkVoYkna9d2pVXVXPdYTP9ej8Q==}
     engines: {node: '>= 0.6'}
@@ -4692,10 +4685,6 @@ packages:
 
   nodemailer-shared@1.1.0:
     resolution: {integrity: sha512-68xW5LSyPWv8R0GLm6veAvm7E+XFXkVgvE3FW0FGxNMMZqMkPFeGDVALfR1DPdSfcoO36PnW7q5AAOgFImEZGg==}
-
-  nodemailer@6.9.16:
-    resolution: {integrity: sha512-psAuZdTIRN08HKVd/E8ObdV6NO7NTBY3KsC30F7M4H1OnmLCUNaS56FpYxyb26zWLSyYF9Ozch9KYHhHegsiOQ==}
-    engines: {node: '>=6.0.0'}
 
   nodemon@3.0.2:
     resolution: {integrity: sha512-9qIN2LNTrEzpOPBaWHTm4Asy1LxXLSickZStAQ4IZe7zsoIpD/A7LWxhZV3t4Zu352uBcqVnRsDXSMR2Sc3lTA==}
@@ -11160,10 +11149,6 @@ snapshots:
 
   fractional-indexing@3.2.0: {}
 
-  free-mail-sender@2.0.0:
-    dependencies:
-      nodemailer: 6.9.16
-
   fresh@0.5.2: {}
 
   fs-constants@1.0.0: {}
@@ -12535,8 +12520,6 @@ snapshots:
   nodemailer-shared@1.1.0:
     dependencies:
       nodemailer-fetch: 1.6.0
-
-  nodemailer@6.9.16: {}
 
   nodemon@3.0.2:
     dependencies:

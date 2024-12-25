@@ -7,14 +7,14 @@
     "termsOfService": "",
     "contact": {
       "name": "VoyPaLlá Team",
-      "email": "voypalla@gmail.com",
+      "email": "voypalla.app@gmail.com",
       "url": "voypalla.uncubano.dev"
     },
     "license": {
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-12-25T18:52:40.674Z"
+    "x-generation-date": "2024-12-25T22:11:31.361Z"
   },
   "x-strapi-config": {
     "plugins": [
