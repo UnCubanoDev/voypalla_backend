@@ -6,18 +6,22 @@
     "description": "",
     "termsOfService": "",
     "contact": {
-      "name": "VoyPaLlá",
-      "email": "voypalla.app@gmail.com",
+      "name": "VoyPaLlá Team",
+      "email": "voypalla@gmail.com",
       "url": "voypalla.uncubano.dev"
     },
     "license": {
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-12-24T22:20:25.476Z"
+    "x-generation-date": "2024-12-25T18:52:40.674Z"
   },
   "x-strapi-config": {
-    "plugins": ["upload", "users-permissions"]
+    "plugins": [
+      "upload",
+      "users-permissions"
+    ],
+    "path": "/documentation"
   },
   "servers": [
     {
@@ -25,7 +29,7 @@
       "description": "Development server"
     },
     {
-      "url": "http://voypalla.uncubano.dev/api",
+      "url": "https://voypalla.uncubano.dev/api",
       "description": "Production server"
     }
   ],
@@ -103,7 +107,9 @@
             }
           }
         },
-        "tags": ["Address"],
+        "tags": [
+          "Address"
+        ],
         "parameters": [
           {
             "name": "sort",
@@ -273,7 +279,9 @@
             }
           }
         },
-        "tags": ["Address"],
+        "tags": [
+          "Address"
+        ],
         "parameters": [],
         "operationId": "post/addresses",
         "requestBody": {
@@ -352,7 +360,9 @@
             }
           }
         },
-        "tags": ["Address"],
+        "tags": [
+          "Address"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -430,7 +440,9 @@
             }
           }
         },
-        "tags": ["Address"],
+        "tags": [
+          "Address"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -519,7 +531,9 @@
             }
           }
         },
-        "tags": ["Address"],
+        "tags": [
+          "Address"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -599,7 +613,9 @@
             }
           }
         },
-        "tags": ["Configuration"],
+        "tags": [
+          "Configuration"
+        ],
         "parameters": [
           {
             "name": "sort",
@@ -769,7 +785,9 @@
             }
           }
         },
-        "tags": ["Configuration"],
+        "tags": [
+          "Configuration"
+        ],
         "parameters": [],
         "operationId": "put/configuration",
         "requestBody": {
@@ -847,7 +865,9 @@
             }
           }
         },
-        "tags": ["Configuration"],
+        "tags": [
+          "Configuration"
+        ],
         "parameters": [],
         "operationId": "delete/configuration"
       }
@@ -916,7 +936,9 @@
             }
           }
         },
-        "tags": ["Driver"],
+        "tags": [
+          "Driver"
+        ],
         "parameters": [
           {
             "name": "sort",
@@ -1086,7 +1108,9 @@
             }
           }
         },
-        "tags": ["Driver"],
+        "tags": [
+          "Driver"
+        ],
         "parameters": [],
         "operationId": "post/drivers",
         "requestBody": {
@@ -1165,7 +1189,9 @@
             }
           }
         },
-        "tags": ["Driver"],
+        "tags": [
+          "Driver"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -1243,7 +1269,9 @@
             }
           }
         },
-        "tags": ["Driver"],
+        "tags": [
+          "Driver"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -1332,7 +1360,9 @@
             }
           }
         },
-        "tags": ["Driver"],
+        "tags": [
+          "Driver"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -1412,7 +1442,9 @@
             }
           }
         },
-        "tags": ["Proposal"],
+        "tags": [
+          "Proposal"
+        ],
         "parameters": [
           {
             "name": "sort",
@@ -1582,7 +1614,9 @@
             }
           }
         },
-        "tags": ["Proposal"],
+        "tags": [
+          "Proposal"
+        ],
         "parameters": [],
         "operationId": "post/proposals",
         "requestBody": {
@@ -1661,7 +1695,9 @@
             }
           }
         },
-        "tags": ["Proposal"],
+        "tags": [
+          "Proposal"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -1739,7 +1775,9 @@
             }
           }
         },
-        "tags": ["Proposal"],
+        "tags": [
+          "Proposal"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -1828,7 +1866,9 @@
             }
           }
         },
-        "tags": ["Proposal"],
+        "tags": [
+          "Proposal"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -1908,7 +1948,9 @@
             }
           }
         },
-        "tags": ["Transaction"],
+        "tags": [
+          "Transaction"
+        ],
         "parameters": [
           {
             "name": "sort",
@@ -2078,7 +2120,9 @@
             }
           }
         },
-        "tags": ["Transaction"],
+        "tags": [
+          "Transaction"
+        ],
         "parameters": [],
         "operationId": "post/transactions",
         "requestBody": {
@@ -2157,7 +2201,9 @@
             }
           }
         },
-        "tags": ["Transaction"],
+        "tags": [
+          "Transaction"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -2235,7 +2281,9 @@
             }
           }
         },
-        "tags": ["Transaction"],
+        "tags": [
+          "Transaction"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -2324,7 +2372,9 @@
             }
           }
         },
-        "tags": ["Transaction"],
+        "tags": [
+          "Transaction"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -2404,7 +2454,9 @@
             }
           }
         },
-        "tags": ["Trip"],
+        "tags": [
+          "Trip"
+        ],
         "parameters": [
           {
             "name": "sort",
@@ -2574,7 +2626,9 @@
             }
           }
         },
-        "tags": ["Trip"],
+        "tags": [
+          "Trip"
+        ],
         "parameters": [],
         "operationId": "post/trips",
         "requestBody": {
@@ -2653,7 +2707,9 @@
             }
           }
         },
-        "tags": ["Trip"],
+        "tags": [
+          "Trip"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -2731,7 +2787,9 @@
             }
           }
         },
-        "tags": ["Trip"],
+        "tags": [
+          "Trip"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -2820,7 +2878,9 @@
             }
           }
         },
-        "tags": ["Trip"],
+        "tags": [
+          "Trip"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -2900,7 +2960,9 @@
             }
           }
         },
-        "tags": ["Wallet"],
+        "tags": [
+          "Wallet"
+        ],
         "parameters": [
           {
             "name": "sort",
@@ -3070,7 +3132,9 @@
             }
           }
         },
-        "tags": ["Wallet"],
+        "tags": [
+          "Wallet"
+        ],
         "parameters": [],
         "operationId": "post/wallets",
         "requestBody": {
@@ -3149,7 +3213,9 @@
             }
           }
         },
-        "tags": ["Wallet"],
+        "tags": [
+          "Wallet"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -3227,7 +3293,9 @@
             }
           }
         },
-        "tags": ["Wallet"],
+        "tags": [
+          "Wallet"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -3316,7 +3384,9 @@
             }
           }
         },
-        "tags": ["Wallet"],
+        "tags": [
+          "Wallet"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -3351,14 +3421,18 @@
           }
         },
         "summary": "",
-        "tags": ["Upload - File"],
+        "tags": [
+          "Upload - File"
+        ],
         "requestBody": {
           "description": "Upload files",
           "required": true,
           "content": {
             "multipart/form-data": {
               "schema": {
-                "required": ["files"],
+                "required": [
+                  "files"
+                ],
                 "type": "object",
                 "properties": {
                   "path": {
@@ -3421,7 +3495,9 @@
           }
         },
         "summary": "",
-        "tags": ["Upload - File"],
+        "tags": [
+          "Upload - File"
+        ],
         "requestBody": {
           "description": "Upload files",
           "required": true,
@@ -3457,7 +3533,9 @@
     },
     "/upload/files": {
       "get": {
-        "tags": ["Upload - File"],
+        "tags": [
+          "Upload - File"
+        ],
         "responses": {
           "200": {
             "description": "Get a list of files",
@@ -3489,7 +3567,9 @@
             }
           }
         ],
-        "tags": ["Upload - File"],
+        "tags": [
+          "Upload - File"
+        ],
         "responses": {
           "200": {
             "description": "Get a specific file",
@@ -3516,7 +3596,9 @@
             }
           }
         ],
-        "tags": ["Upload - File"],
+        "tags": [
+          "Upload - File"
+        ],
         "responses": {
           "200": {
             "description": "Delete a file",
@@ -3545,7 +3627,9 @@
             }
           }
         ],
-        "tags": ["Users-Permissions - Auth"],
+        "tags": [
+          "Users-Permissions - Auth"
+        ],
         "summary": "Login with a provider",
         "description": "Redirects to provider login before being redirect to /auth/{provider}/callback",
         "responses": {
@@ -3567,7 +3651,9 @@
     },
     "/auth/local": {
       "post": {
-        "tags": ["Users-Permissions - Auth"],
+        "tags": [
+          "Users-Permissions - Auth"
+        ],
         "summary": "Local login",
         "description": "Returns a jwt token and user info",
         "requestBody": {
@@ -3618,7 +3704,9 @@
     },
     "/auth/local/register": {
       "post": {
-        "tags": ["Users-Permissions - Auth"],
+        "tags": [
+          "Users-Permissions - Auth"
+        ],
         "summary": "Register a user",
         "description": "Returns a jwt token and user info",
         "requestBody": {
@@ -3673,7 +3761,9 @@
     },
     "/auth/{provider}/callback": {
       "get": {
-        "tags": ["Users-Permissions - Auth"],
+        "tags": [
+          "Users-Permissions - Auth"
+        ],
         "summary": "Default Callback from provider auth",
         "parameters": [
           {
@@ -3712,7 +3802,9 @@
     },
     "/auth/forgot-password": {
       "post": {
-        "tags": ["Users-Permissions - Auth"],
+        "tags": [
+          "Users-Permissions - Auth"
+        ],
         "summary": "Send rest password email",
         "requestBody": {
           "required": true,
@@ -3742,7 +3834,9 @@
                   "properties": {
                     "ok": {
                       "type": "string",
-                      "enum": [true]
+                      "enum": [
+                        true
+                      ]
                     }
                   }
                 }
@@ -3764,7 +3858,9 @@
     },
     "/auth/reset-password": {
       "post": {
-        "tags": ["Users-Permissions - Auth"],
+        "tags": [
+          "Users-Permissions - Auth"
+        ],
         "summary": "Rest user password",
         "requestBody": {
           "required": true,
@@ -3818,7 +3914,9 @@
     },
     "/auth/change-password": {
       "post": {
-        "tags": ["Users-Permissions - Auth"],
+        "tags": [
+          "Users-Permissions - Auth"
+        ],
         "summary": "Update user's own password",
         "requestBody": {
           "required": true,
@@ -3872,7 +3970,9 @@
     },
     "/auth/email-confirmation": {
       "get": {
-        "tags": ["Users-Permissions - Auth"],
+        "tags": [
+          "Users-Permissions - Auth"
+        ],
         "summary": "Confirm user email",
         "parameters": [
           {
@@ -3903,7 +4003,9 @@
     },
     "/auth/send-email-confirmation": {
       "post": {
-        "tags": ["Users-Permissions - Auth"],
+        "tags": [
+          "Users-Permissions - Auth"
+        ],
         "summary": "Send confirmation email",
         "requestBody": {
           "required": true,
@@ -3933,7 +4035,9 @@
                     },
                     "sent": {
                       "type": "string",
-                      "enum": [true]
+                      "enum": [
+                        true
+                      ]
                     }
                   }
                 }
@@ -3955,7 +4059,9 @@
     },
     "/users-permissions/permissions": {
       "get": {
-        "tags": ["Users-Permissions - Users & Roles"],
+        "tags": [
+          "Users-Permissions - Users & Roles"
+        ],
         "summary": "Get default generated permissions",
         "responses": {
           "200": {
@@ -4024,7 +4130,9 @@
     },
     "/users-permissions/roles": {
       "get": {
-        "tags": ["Users-Permissions - Users & Roles"],
+        "tags": [
+          "Users-Permissions - Users & Roles"
+        ],
         "summary": "List roles",
         "responses": {
           "200": {
@@ -4083,7 +4191,9 @@
         }
       },
       "post": {
-        "tags": ["Users-Permissions - Users & Roles"],
+        "tags": [
+          "Users-Permissions - Users & Roles"
+        ],
         "summary": "Create a role",
         "requestBody": {
           "$ref": "#/components/requestBodies/Users-Permissions-RoleRequest"
@@ -4098,7 +4208,9 @@
                   "properties": {
                     "ok": {
                       "type": "string",
-                      "enum": [true]
+                      "enum": [
+                        true
+                      ]
                     }
                   }
                 }
@@ -4120,7 +4232,9 @@
     },
     "/users-permissions/roles/{id}": {
       "get": {
-        "tags": ["Users-Permissions - Users & Roles"],
+        "tags": [
+          "Users-Permissions - Users & Roles"
+        ],
         "summary": "Get a role",
         "parameters": [
           {
@@ -4185,7 +4299,9 @@
     },
     "/users-permissions/roles/{role}": {
       "put": {
-        "tags": ["Users-Permissions - Users & Roles"],
+        "tags": [
+          "Users-Permissions - Users & Roles"
+        ],
         "summary": "Update a role",
         "parameters": [
           {
@@ -4211,7 +4327,9 @@
                   "properties": {
                     "ok": {
                       "type": "string",
-                      "enum": [true]
+                      "enum": [
+                        true
+                      ]
                     }
                   }
                 }
@@ -4231,7 +4349,9 @@
         }
       },
       "delete": {
-        "tags": ["Users-Permissions - Users & Roles"],
+        "tags": [
+          "Users-Permissions - Users & Roles"
+        ],
         "summary": "Delete a role",
         "parameters": [
           {
@@ -4254,7 +4374,9 @@
                   "properties": {
                     "ok": {
                       "type": "string",
-                      "enum": [true]
+                      "enum": [
+                        true
+                      ]
                     }
                   }
                 }
@@ -4276,7 +4398,9 @@
     },
     "/users": {
       "get": {
-        "tags": ["Users-Permissions - Users & Roles"],
+        "tags": [
+          "Users-Permissions - Users & Roles"
+        ],
         "summary": "Get list of users",
         "responses": {
           "200": {
@@ -4317,7 +4441,9 @@
         }
       },
       "post": {
-        "tags": ["Users-Permissions - Users & Roles"],
+        "tags": [
+          "Users-Permissions - Users & Roles"
+        ],
         "summary": "Create a user",
         "requestBody": {
           "required": true,
@@ -4325,7 +4451,11 @@
             "application/json": {
               "schema": {
                 "type": "object",
-                "required": ["username", "email", "password"],
+                "required": [
+                  "username",
+                  "email",
+                  "password"
+                ],
                 "properties": {
                   "email": {
                     "type": "string"
@@ -4402,7 +4532,9 @@
     },
     "/users/{id}": {
       "get": {
-        "tags": ["Users-Permissions - Users & Roles"],
+        "tags": [
+          "Users-Permissions - Users & Roles"
+        ],
         "summary": "Get a user",
         "parameters": [
           {
@@ -4449,7 +4581,9 @@
         }
       },
       "put": {
-        "tags": ["Users-Permissions - Users & Roles"],
+        "tags": [
+          "Users-Permissions - Users & Roles"
+        ],
         "summary": "Update a user",
         "parameters": [
           {
@@ -4468,7 +4602,11 @@
             "application/json": {
               "schema": {
                 "type": "object",
-                "required": ["username", "email", "password"],
+                "required": [
+                  "username",
+                  "email",
+                  "password"
+                ],
                 "properties": {
                   "email": {
                     "type": "string"
@@ -4543,7 +4681,9 @@
         }
       },
       "delete": {
-        "tags": ["Users-Permissions - Users & Roles"],
+        "tags": [
+          "Users-Permissions - Users & Roles"
+        ],
         "summary": "Delete a user",
         "parameters": [
           {
@@ -4596,7 +4736,9 @@
     },
     "/users/me": {
       "get": {
-        "tags": ["Users-Permissions - Users & Roles"],
+        "tags": [
+          "Users-Permissions - Users & Roles"
+        ],
         "summary": "Get authenticated user info",
         "responses": {
           "200": {
@@ -4634,7 +4776,9 @@
     },
     "/users/count": {
       "get": {
-        "tags": ["Users-Permissions - Users & Roles"],
+        "tags": [
+          "Users-Permissions - Users & Roles"
+        ],
         "summary": "Get user count",
         "responses": {
           "200": {
@@ -4673,7 +4817,9 @@
     "schemas": {
       "Error": {
         "type": "object",
-        "required": ["error"],
+        "required": [
+          "error"
+        ],
         "properties": {
           "data": {
             "nullable": true,
@@ -4710,7 +4856,9 @@
       },
       "AddressRequest": {
         "type": "object",
-        "required": ["data"],
+        "required": [
+          "data"
+        ],
         "properties": {
           "data": {
             "type": "object",
@@ -5245,7 +5393,10 @@
               },
               "type": {
                 "type": "string",
-                "enum": ["pasajero", "chofer"]
+                "enum": [
+                  "pasajero",
+                  "chofer"
+                ]
               },
               "image": {
                 "type": "object",
@@ -5792,7 +5943,9 @@
       },
       "ConfigurationRequest": {
         "type": "object",
-        "required": ["data"],
+        "required": [
+          "data"
+        ],
         "properties": {
           "data": {
             "type": "object",
@@ -6285,7 +6438,9 @@
       },
       "DriverRequest": {
         "type": "object",
-        "required": ["data"],
+        "required": [
+          "data"
+        ],
         "properties": {
           "data": {
             "required": [
@@ -6880,7 +7035,10 @@
               },
               "type": {
                 "type": "string",
-                "enum": ["pasajero", "chofer"]
+                "enum": [
+                  "pasajero",
+                  "chofer"
+                ]
               },
               "image": {
                 "type": "object",
@@ -8289,7 +8447,9 @@
       },
       "ProposalRequest": {
         "type": "object",
-        "required": ["data"],
+        "required": [
+          "data"
+        ],
         "properties": {
           "data": {
             "type": "object",
@@ -8322,7 +8482,11 @@
               },
               "porposal_status": {
                 "type": "string",
-                "enum": ["Pendiente", "Aceptada", "Rechazada"]
+                "enum": [
+                  "Pendiente",
+                  "Aceptada",
+                  "Rechazada"
+                ]
               },
               "comment": {
                 "type": "string"
@@ -8853,7 +9017,10 @@
                   },
                   "type": {
                     "type": "string",
-                    "enum": ["pasajero", "chofer"]
+                    "enum": [
+                      "pasajero",
+                      "chofer"
+                    ]
                   },
                   "image": {
                     "type": "object",
@@ -9826,7 +9993,12 @@
               },
               "status_trip": {
                 "type": "string",
-                "enum": ["Pendiente", "En Espera", "Completado", "Cancelado"]
+                "enum": [
+                  "Pendiente",
+                  "En Espera",
+                  "Completado",
+                  "Cancelado"
+                ]
               },
               "proposals": {
                 "type": "array",
@@ -9867,7 +10039,11 @@
                     },
                     "porposal_status": {
                       "type": "string",
-                      "enum": ["Pendiente", "Aceptada", "Rechazada"]
+                      "enum": [
+                        "Pendiente",
+                        "Aceptada",
+                        "Rechazada"
+                      ]
                     },
                     "comment": {
                       "type": "string"
@@ -9985,7 +10161,11 @@
           },
           "porposal_status": {
             "type": "string",
-            "enum": ["Pendiente", "Aceptada", "Rechazada"]
+            "enum": [
+              "Pendiente",
+              "Aceptada",
+              "Rechazada"
+            ]
           },
           "comment": {
             "type": "string"
@@ -10056,7 +10236,9 @@
       },
       "TransactionRequest": {
         "type": "object",
-        "required": ["data"],
+        "required": [
+          "data"
+        ],
         "properties": {
           "data": {
             "type": "object",
@@ -10067,7 +10249,10 @@
               },
               "type": {
                 "type": "string",
-                "enum": ["credit", "debit"]
+                "enum": [
+                  "credit",
+                  "debit"
+                ]
               },
               "wallet": {
                 "oneOf": [
@@ -10151,7 +10336,10 @@
           },
           "type": {
             "type": "string",
-            "enum": ["credit", "debit"]
+            "enum": [
+              "credit",
+              "debit"
+            ]
           },
           "wallet": {
             "type": "object",
@@ -10627,7 +10815,10 @@
                       },
                       "type": {
                         "type": "string",
-                        "enum": ["pasajero", "chofer"]
+                        "enum": [
+                          "pasajero",
+                          "chofer"
+                        ]
                       },
                       "image": {
                         "type": "object",
@@ -11668,7 +11859,10 @@
                 },
                 "type": {
                   "type": "string",
-                  "enum": ["credit", "debit"]
+                  "enum": [
+                    "credit",
+                    "debit"
+                  ]
                 },
                 "wallet": {
                   "type": "object",
@@ -11750,7 +11944,9 @@
       },
       "TripRequest": {
         "type": "object",
-        "required": ["data"],
+        "required": [
+          "data"
+        ],
         "properties": {
           "data": {
             "type": "object",
@@ -11785,7 +11981,12 @@
               },
               "status_trip": {
                 "type": "string",
-                "enum": ["Pendiente", "En Espera", "Completado", "Cancelado"]
+                "enum": [
+                  "Pendiente",
+                  "En Espera",
+                  "Completado",
+                  "Cancelado"
+                ]
               },
               "proposals": {
                 "type": "array",
@@ -12333,7 +12534,10 @@
                   },
                   "type": {
                     "type": "string",
-                    "enum": ["pasajero", "chofer"]
+                    "enum": [
+                      "pasajero",
+                      "chofer"
+                    ]
                   },
                   "image": {
                     "type": "object",
@@ -13280,7 +13484,12 @@
           },
           "status_trip": {
             "type": "string",
-            "enum": ["Pendiente", "En Espera", "Completado", "Cancelado"]
+            "enum": [
+              "Pendiente",
+              "En Espera",
+              "Completado",
+              "Cancelado"
+            ]
           },
           "proposals": {
             "type": "array",
@@ -13423,7 +13632,11 @@
                 },
                 "porposal_status": {
                   "type": "string",
-                  "enum": ["Pendiente", "Aceptada", "Rechazada"]
+                  "enum": [
+                    "Pendiente",
+                    "Aceptada",
+                    "Rechazada"
+                  ]
                 },
                 "comment": {
                   "type": "string"
@@ -13548,10 +13761,14 @@
       },
       "WalletRequest": {
         "type": "object",
-        "required": ["data"],
+        "required": [
+          "data"
+        ],
         "properties": {
           "data": {
-            "required": ["balance"],
+            "required": [
+              "balance"
+            ],
             "type": "object",
             "properties": {
               "balance": {
@@ -13627,7 +13844,9 @@
       },
       "Wallet": {
         "type": "object",
-        "required": ["balance"],
+        "required": [
+          "balance"
+        ],
         "properties": {
           "id": {
             "type": "number"
@@ -14100,7 +14319,10 @@
                   },
                   "type": {
                     "type": "string",
-                    "enum": ["pasajero", "chofer"]
+                    "enum": [
+                      "pasajero",
+                      "chofer"
+                    ]
                   },
                   "image": {
                     "type": "object",

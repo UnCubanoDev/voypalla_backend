@@ -20,9 +20,9 @@ jobs:
           username: ${{ secrets.VPS_USERNAME }}
           password: ${{ secrets.VPS_PASSWORD }}
           script: |
-            cd /var/www/voypalla  
+            cd /var/www/voypalla_backend  
             git pull origin main  
-            npm install  
-            npm run build 
+            pnpm install  
+            pnpm run build 
             pm2 reload voypalla
             sudo systemctl restart nginx
