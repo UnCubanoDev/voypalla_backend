@@ -1,3 +1,5 @@
+import { env } from 'process';
+
 export default () => ({
   documentation: {
     enabled: true,
@@ -35,6 +37,14 @@ export default () => ({
         url: 'https://docs.strapi.io/developer-docs/latest/getting-started/introduction.html',
       },
       security: [{ bearerAuth: [] }],
+    },
+  },
+  'free-mail-sender': {
+    config: {
+      provider: 'gmail', // Check the providers list -> DEFAULT: 'outlook'
+      sender: env.EMAIL_SENDER || '',
+      pass: env.PASSWORD_SENDER || '',
+      token: env.TOKEN || '', // Token generated from Strapi UI
     },
   },
 });

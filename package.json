@@ -17,13 +17,14 @@
     "@strapi/strapi": "5.6.0",
     "axios": "^1.7.9",
     "firebase-admin": "^13.0.1",
+    "free-mail-sender": "^2.0.0",
     "geolib": "^3.3.4",
     "pg": "8.8.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.28.0",
     "strapi-geodata": "^0.1.2",
-    "styled-components": "^6.1.13"    
+    "styled-components": "^6.1.13"
   },
   "devDependencies": {
     "@types/node": "^20",
