@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trips",
+  "info": {
+    "singularName": "trip",
+    "pluralName": "trips",
+    "displayName": "Trip"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "origin": {
+      "type": "customField",
+      "options": {
+        "info": true
+      },
+      "customField": "plugin::geodata.geojson"
+    },
+    "destination": {
+      "type": "customField",
+      "options": {
+        "info": true
+      },
+      "customField": "plugin::geodata.geojson"
+    },
+    "base_price": {
+      "type": "decimal"
+    },
+    "driver": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::driver.driver"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "admin::user"
+    },
+    "status_trip": {
+      "type": "enumeration",
+      "enum": [
+        "Pendiente",
+        "En Espera",
+        "Completado",
+        "Cancelado"
+      ],
+      "default": "Pendiente"
+    },
+    "proposals": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::proposal.proposal",
+      "mappedBy": "trip"
+    }
+  }
+}

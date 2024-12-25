@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "configurations",
+  "info": {
+    "singularName": "configuration",
+    "pluralName": "configurations",
+    "displayName": "Configuration",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Commission": {
+      "type": "integer"
+    },
+    "NightCommission": {
+      "type": "integer"
+    },
+    "PricePerKm": {
+      "type": "decimal"
+    },
+    "NightPricePerKm": {
+      "type": "decimal"
+    },
+    "InitialWalletBalance": {
+      "type": "decimal",
+      "default": 100
+    }
+  }
+}
