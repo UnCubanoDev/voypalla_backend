@@ -26,10 +26,13 @@
     "styled-components": "^6.1.13"
   },
   "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/koa": "^2.15.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vite": "^6.0.6"
   },
   "engines": {
     "node": ">=18.0.0 <=22.x.x",

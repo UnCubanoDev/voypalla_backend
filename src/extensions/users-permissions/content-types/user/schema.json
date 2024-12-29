@@ -73,13 +73,15 @@
     },
     "type": {
       "type": "enumeration",
-      "enum": ["pasajero", "chofer"]
+      "enum": ["pasajero", "taxista"],
+      "required": true,
+      "default": "pasajero"
     },
     "image": {
-      "allowedTypes": ["images", "files"],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": ["images", "files"]
     },
     "name": {
       "type": "text",

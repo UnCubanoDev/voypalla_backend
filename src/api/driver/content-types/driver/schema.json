@@ -16,11 +16,6 @@
     }
   },
   "attributes": {
-    "user": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "plugin::users-permissions.user"
-    },
     "vehicle": {
       "pluginOptions": {
         "i18n": {
@@ -28,7 +23,7 @@
         }
       },
       "type": "string",
-      "required": true
+      "required": false
     },
     "plate_number": {
       "pluginOptions": {
@@ -37,7 +32,7 @@
         }
       },
       "type": "string",
-      "required": true,
+      "required": false,
       "unique": true
     },
     "availability": {
@@ -48,7 +43,7 @@
       },
       "type": "boolean",
       "default": false,
-      "required": true
+      "required": false
     },
     "current_location": {
       "pluginOptions": {
@@ -63,43 +58,43 @@
       "customField": "plugin::geodata.geojson"
     },
     "ci": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
-      },
-      "required": true
+      }
     },
     "licence": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
-      },
-      "required": true
+      }
     },
     "vehicle_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
-      },
-      "required": true
+      }
     }
   }
 }
