@@ -3,7 +3,7 @@ name: Producción
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy:
@@ -20,8 +20,9 @@ jobs:
           username: ${{ secrets.VPS_USERNAME }}
           password: ${{ secrets.VPS_PASSWORD }}
           script: |
-            cd /var/www/voypalla_backend  
-            git pull origin main  
+            cd /var/www/voypalla_backend
+            git stash  
+            git pull origin master  
             pnpm install  
             pnpm run build 
             pm2 reload voypalla
