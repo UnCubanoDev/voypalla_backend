@@ -67,7 +67,21 @@ export default factories.createCoreController(
               },
             }
           );
-          return { user, client, driver };
+          // Obtener el InitialWalletBalance de la configuración
+          const config = await strapi.entityService.findMany(
+            'api::configuration.configuration'
+          );
+          const initialWalletBalance = config?.[0]?.InitialWalletBalance || 0; // valor por defecto
+          const wallet = await strapi.entityService.create(
+            'api::wallet.wallet',
+            {
+              data: {
+                balance: initialWalletBalance,
+                driver: driver.id,
+              },
+            }
+          );
+          return { user, client, driver, wallet };
         } else {
           // Crear el cliente con los mismos datos del usuario
           const client = await strapi.entityService.create(
